@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/tools2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+  li a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    color: #7B7979;
+  }
+
+  .active {
+    color: #7B7979;
+  }
+
+  #logo {
+    width: 30%;
+  }
+
+  .social {
+   height: 15px; 
+  }
+
+  #insta {
+    margin-left: -35px;
+  }
+
+  #twitter {
+    margin-left: -60px;
+  }
+
+.featured {
+    color:black;
+    margin-right: 3%;
+   text-align: right;
+}
+
+.featured h1 {
+    font-size: 90px;
+    margin-top: 14%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #681887;
+ 
+}
+
+.featured h3 {
+    font-size: 25px;
+    font-weight: 500;
+   /* color: #05a1c9;*/
+}
+
+.hairstyles {
+  /*margin-top: 19.2%; */
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+#hair1 {
+    width: 500px;
+}
+
+.aboutSection {
+ margin-top: 19.2%;
+  background-color:rgba(0, 0, 0, 0.87);
+  display: flex;
+}
+
+.aboutSection .text {
+padding-top: 4%;
+}
+
+.aboutSection h2 {
+  color: white;
+  font-size: 30px;
+  padding-top: 8%;
+  font-weight: 400;
+}
+
+.aboutSection p {
+  color: white;
+  padding-right: 10%;
+  font-weight: 300;
+}
+
+.aboutSection img {
+height: 80%;
+padding: 5%;
+
+}
